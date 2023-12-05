@@ -9,10 +9,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+
+    
 </head>
 <body>
     <header>
-        <img src="./assets/bpcl_logo_1.jpg" alt="" class="logo">
+        <img src="./assets/bpcl_logo_1.jpg" alt="" class="logo" id="logo_main">
+
+        <div class="sc_header">
+            <div class="logo_sc">
+                <img src="./assets/bpcl_logo_1.jpg" alt="">
+            </div>
+            <div class="sc_top_nav">
+                <ul class="top_links">
+                    <li class="menu"><a href=""><img src="./assets/icons-link.png" alt="" class="imgs "></a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/podcast-icon.png" alt="">
+                                    <span>BPC PODCAST</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   <img src="./assets/icon_accesibility.png" alt="">
+                                    <span>ACCESSIBILITY</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/icon_bpcl_group.png" alt="">
+                                    <span>BPCL GROUP</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/icon_bpcl_group.png" alt="">
+                                    <span>BPCL LINKS</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/icon_connect.png" alt="">
+                                    <span>CONNECT</span>
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </li>
+                    <li><a href=""></a><img src="./assets/search_icon.png" alt="" class="imgs"></li>
+                    <li><a href="" class="hindi">हिंदी</a></li>
+                </ul>
+                <div class="menu">
+                    <ul>
+                        <li class="menu-sm"><a href="#"><i class="fa-solid fa-bars"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="./Aditya/About/about.html">About BPCL</a></li>
+                                <li><a href="#">Bharat Petroleum for</a></li>
+                                <li><a href="#">Tenders</a></li>
+                                <li><a href="./samadhan/career/career.html">Careers</a></li>
+                                <li><a href="./Aditya/Csr/csr.html">CSR</a></li>
+                                <li><a href="./Preethi/R&D Center/R&D-center.html">R&D Center</a></li>
+                                <li><a href="./Preethi/Sustainability/Sustainability.html">Sustainability</a></li>
+                                <li><a href="./samadhan/vegilence/vegilence.html">Vigilance</a></li>
+                                <li><a href="./Adarsh/RTI/rti.html">RTI</a></li>
+                                <li><a href="#">Complaints | Feedback</a></li>
+                                <li><a href="#" class="price">View Prices</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <div class="top_nav">
             <div class="all_links">
                 <div class="petroleum_links">
@@ -73,6 +149,7 @@
                 </div>
             </div>
         </div>
+
         <div class="social_links_sm">
             <ul>
                 <li class="verticle_line"></li>
@@ -84,6 +161,7 @@
                 <li title="Email to Friend"><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
         </div>
+        
         <div class="middle_nav">
             <div class="input">
                 <img src="./assets/search_icon.png" alt="">
@@ -98,10 +176,11 @@
 
         
     </header>
+
     <div class="final_nav">
             <ul>
-                <li><a href="#" class="links">Home</a></li>
-                <li><a href="#" class="links">About BPCL</a>
+                <li class="big-sc"><a href="#" class="links">Home</a></li>
+                <li class="big-sc"><a href="./Aditya/About/about.html" class="links">About BPCL</a>
                     <ul class="submenu">
                         <li><a href="#">Our Journey</a></li>
                         <li><a href="#">Board of Directors</a></li>
@@ -116,7 +195,7 @@
                         <li><a href="#">Media kit</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="links">Bharat Petroleum for</a>
+                <li class="big-sc"><a href="#" class="links">Bharat Petroleum for</a>
                     <ul class="submenu">
                         <li><a href="#">Our Businesses</a></li>
                         <li><a href="#">Refineries</a></li>
@@ -128,7 +207,7 @@
                         <li><a href="#">For Retired Staff</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="links">Tenders</a>
+                <li class="big-sc"><a href="#" class="links">Tenders</a>
                     <ul class="submenu">
                         <li><a href="#">View Tendors</a></li>
                         <li><a href="#">View Tendors Awarded</a></li>
@@ -136,7 +215,7 @@
                         
                     </ul>
                 </li>
-                <li><a href="#" class="links">Careers</a>
+                <li class="big-sc"><a href="./samadhan/career/career.html" class="links">Careers</a>
                     <ul class="submenu">
                         <li><a href="#">What We Do</a></li>
                         <li><a href="#">Accelerated Career</a></li>
@@ -149,7 +228,7 @@
                         <li><a href="#">sports</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="links">CSR</a>
+                <li class="big-sc"><a href="./Aditya/Csr/csr.html" class="links">CSR</a>
                     <ul class="submenu">
                         <li><a href="#">corporate social responsibility</a></li>
                         <li><a href="#">CSR reporting</a></li>
@@ -163,7 +242,7 @@
                         <li><a href="#">contact us</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="links">R&D Center</a>
+                <li class="big-sc"><a href="./Preethi/R&D Center/R&D-center.html" class="links">R&D Center</a>
                     <ul class="submenu">
                         <li><a href="#">about us</a></li>
                         <li><a href="#">our capabilities</a></li>
@@ -176,7 +255,7 @@
                         <li><a href="#">hi-star stove</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="links">Sustainability</a>
+                <li class="big-sc"><a href="./Preethi/Sustainability/Sustainability.html" class="links">Sustainability</a>
                     <ul class="submenu">
                         <li><a href="#">Sustainability Development goals</a></li>
                         <li><a href="#">Sustainability reports</a></li>
@@ -186,7 +265,7 @@
                         <li><a href="#">awards and recognition</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="links">Vigilance</a>
+                <li class="big-sc"><a href="./samadhan/vegilence/vegilence.html" class="links">Vigilance</a>
                     <ul class="submenu">
                         <li class="more"><a href="#">chef Vigilance officer</a></li>
                         <li><a href="#">online complaint</a></li>
@@ -197,7 +276,7 @@
                         <li class="more"><a href="#">vigilance awareness in society</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="links">RTI</a>
+                <li class="big-sc"><a href="./Adarsh/RTI/rti.html" class="links">RTI</a>
                     <ul class="submenu">
                         <li><a href="#">About RTI act</a></li>
                         <li><a href="#">how to apply for information</a></li>
@@ -210,13 +289,747 @@
                         <li><a href="#">disciplinary action</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="links">Complaints | Feedback</a></li>
-                <li><a href="#" class="view_prices">View Prices</a></li>
+                <li class="big-sc"><a href="#" class="links">Complaints | Feedback</a></li>
+                <li class="big-sc"><a href="#" class="view_prices">View Prices</a></li>
+                <li class="menu-sm"><a href="#"><i class="fa-solid fa-bars"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./Aditya/About/about.html">About BPCL</a></li>
+                        <li><a href="#">Bharat Petroleum for</a></li>
+                        <li><a href="#">Tenders</a></li>
+                        <li><a href="./samadhan/career/career.html">Careers</a></li>
+                        <li><a href="./Aditya/Csr/csr.html">CSR</a></li>
+                        <li><a href="./Preethi/R&D Center/R&D-center.html">R&D Center</a></li>
+                        <li><a href="./Preethi/Sustainability/Sustainability.html">Sustainability</a></li>
+                        <li><a href="./samadhan/vegilence/vegilence.html">Vigilance</a></li>
+                        <li><a href="./Adarsh/RTI/rti.html">RTI</a></li>
+                        <li><a href="#">Complaints | Feedback</a></li>
+                        <li><a href="#">View Prices</a></li>
+                    </ul>
+                </li>
             </ul>
     </div>
 
+<!-- Crousal -->
+<div class="crousal">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assets/unnamed-8-4440b7.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/crousal2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/crousal3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/crousal4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/crousal5.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/crousal6.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/crousal7.jpg" alt=""></div>
+          
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- crousal end -->
 
+
+<div class="section1">
+        <div class="innersection1">
+            <div class="container">
+            <div class="image1 image">
+                <div class="back_blur">
+                    <h3>Fuel & Services</h3>
+                    <hr>
+                </div>
+                
+                
+            </div>
     
+            <div class="content">
+                <img src="https://www.bharatpetroleum.in/images/homepage/icon/icon_car_hr.png" alt="">
+                <h3>Fuel & Services</h3>
+                <p>Bharat Petroleum is committed towards serving its customers in the best possible way by offering customer-friendly Fuel Stations across the length and breadth of the country.</p>
+                <button>Readmore</button>
+            </div>
+            </div>
+
+
+            <div class="container">
+            <div class="image2 image">
+                <div class="back_blur">
+                    <h3>Bharatgas</h3>
+                    <hr>
+                </div>
+            </div>
     
+            <div class="content">
+                <img src="./assets/icon_bharatgas_hr.png "alt="">
+                <h3>Bharatgas</h3>
+                <p>Bharat Petroleum’s flagship product Bharatgas has been dominating the LPG gas market since the past three decades reaching out to over 80 million homes.</p>
+                <button>Readmore</button>
+            </div>
+            </div>
+
+
+            <div class="container">
+            <div class="image3 image">
+                <div class="back_blur">
+                    <h3>MAK Lubricants</h3>
+                    <hr>
+                </div>
+            </div>
+    
+            <div class="content">
+                <img src="./assets/icon_lubricants_hr.png" alt="">
+                <h3>MAK Lubricants</h3>
+                <p>Bharat Petroleum understands the importance of the right lubricants in extending the life of vehicles, and offers a complete range of quality products across categories such as Automotive Engine Oils, Gear Oils, Transmission Oils and Specialty Oils.</p>
+                <button>Readmore</button>
+            </div>
+            </div>
+
+
+            <div class="container">
+            <div class="image4 image">
+                <div class="back_blur">
+                    <h3>Refineries</h3>
+                    <hr>
+                </div>
+            </div>
+    
+            <div class="content">
+                <img src="./assets/icon_Industries_hr.png" alt="">
+                <h3>Refineries</h3>
+                <p>Bharat Petroleum is committed towards serving its customers in the best possible way by offering customer-friendly Fuel Stations across the length and breadth of the country.</p>
+                <button>Readmore</button>
+            </div>
+            </div>
+
+
+        
+            <div class="container">
+            <div class="image5 image">
+                <div class="back_blur">
+                    <h3>Gas</h3>
+                    <hr>
+                </div>
+            </div>
+    
+            <div class="content">
+                <img src="./assets/icon_lng_hr.png" alt="">
+                <h3>Gas</h3>
+                <p>Bharat Petroleum has expanded its fuel portfolio to include natural gas, with an objective of providing energy security to millions of Indians.</p>
+                <button>Readmore</button>
+            </div>
+            </div>
+
+
+         <div class="container">
+            <div class="image6 image">
+                <div class="back_blur">
+                    <h3>Industrial & Commercial</h3>
+                    <hr>
+                </div>
+            </div>
+    
+            <div class="content">
+                <img src="./assets/icon_industry_hr.png" alt="">
+                <h3>Industrial & Commercial</h3>
+                <p>At Bharat Petroleum, we cater to the fuel requirements of around 8000 industries, across the Public & Private sectors and various Govt. establishments such as Defense, Railways, State Transport Undertakings, State Electricity Boards etc.</p>
+                <button>Readmore</button>
+            </div>
+            </div>
+
+
+            <div class="container">
+            <div class="image7 image">
+                <div class="back_blur">
+                    <h3>International Trade</h3>
+                    <hr>
+                </div>
+            </div>
+    
+            <div class="content">
+                <img src="./assets/icon_ship_hr.png" alt="">
+                <h3>International Trade</h3>
+                <p>At BPCL, International Trade involves the import of crude oil, import and export of finished products, transportation of coastal product, risk management.</p>
+                <button>Readmore</button>
+            </div>
+            </div>
+
+
+
+            <div class="container">
+            <div class="image8 image">
+                <div class="back_blur">
+                    <h3>Proficiency Testing</h3>
+                    <hr>
+                </div>
+            </div>
+    
+            <div class="content">
+                <img src="./assets/icon_proficiency_testing_hr.png" alt="">
+                <h3>Proficiency Testing</h3>
+                <p>To cater to the needs of petroleum sector laboratories in and around India, Bharat Petroleum has launched Proficiency Testing labs.</p>
+                <button>Readmore</button>
+            </div>
+            </div>
+
+
+        </div>
+</div>
+
+<div class="section2">
+    <div class="innersection2">
+        <div class="box1 box dashed">
+            <div class="image">
+                <img src="./assets/right-arrow-wh.png" alt="" class="img1">
+                <img src="./assets/right-arrow-bl.png" alt="" class="img2">
+                <div class="animate">
+                    <a href="" title="KNOW MORE">KNOW MORE</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Ministry Updates</h3>
+                <hr>
+                <div class="small">
+                    <div class="innercontent">
+                        <p>Shri Narendra Modi laid the foundation stone of Petrochemical Complex at BPCL’s Bina Refinery</p>
+                        <span class="left">2023-09-14</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                    <div class="innercontent">
+                        <p>Shri Rameswar Teli, Hon'ble Minister of State for Petroleum & Natural Gas and Labour & Employment, visited our Haldia LPG Import Terminal.</p>
+                        <span class="left">2023-03-06</span>
+                        <span class="right">KNOW MORE »</span>
+                        
+                    </div>
+                    <div class="innercontent">
+                        <p>Shri Pankaj Jain, Secretary, Ministry of Petroleum and Natural Gas, Government of India shares his experience at #IndiaEnergyWeek.</p>
+                        <span class="left">2023-02-09</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                    <div class="innercontent">
+                        <p>Smt. Perin Devi, Joint Secretary(IFD), MOP&NG, Government of India visited BPCL Pavilion at India Energy Week 2023.</p>
+                        <span class="left">2023-02-08</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                    <div class="innercontent">
+                        <p>Hon'ble Additional Secretary, Ministry of Road Transport and Highways, Government of India, Shri Mahmood Ahmed visited BPCL Pavilion at India Energy Week 2023.</p>
+                        <span class="left">2023-02-08</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="box2 box dashed">
+            <div class="image">
+                <img src="./assets/right-arrow-wh.png" alt="" class="img1">
+                <img src="./assets/right-arrow-bl.png" alt="" class="img2">
+                <div class="animate">
+                    <a href="" title="KNOW MORE">KNOW MORE</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Infoline</h3>
+                <hr>
+                <div class="small">
+                    <div class="innercontent">
+                        <p>Sukhmal Jain, Director Marketing, At the prestigious AIMA’s 50th National Management Convention</p>
+                        <span class="left">27 Sep 2023</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                    <div class="innercontent">
+                        <p>Inauguration of #BPCL’s stall at the CPSE Roundtable and Exhibition 2023</p>
+                        <span class="left">25 Sep 2023</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                    <div class="innercontent">
+                        <p>BPCL has been recognized by the esteemed PRCI across multiple categories.</p>
+                        <span class="left">23 Sep 2023</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                    <div class="innercontent">
+                        <p>Syed Abbas Akhtar, CGM (Brand & PR), has been awarded for "Integrated Public Relations." by PRCI</p>
+                        <span class="left">23 Sep 2023</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                    <div class="innercontent">
+                        <p>"Best-In-Class Excellence in Cost Management" accolade at the 15th ELSC Leadership Awards</p>
+                        <span class="left">19 Sep 2023</span>
+                        <span class="right">KNOW MORE »</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="content">
+                <h3>Join Us</h3>
+                <hr>
+                <div class="small">
+                    <div class="innercontent">
+                        <p>Bharat Petroleum welcomes you to be a part of this phenomenal growth and change, where you can merge your aspirations and values with that of ours and work towards fuelling a billion lives.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="image">
+                <img src="./assets/left-arrow-wh.png" alt="" class="img1">
+                <img src="./assets/left-arrow-bl.png" alt="" class="img2">
+                <div class="animate">
+                    <a href="" title="KNOW MORE">KNOW MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="content">
+                <h3>Society</h3>
+                <hr>
+                <div class="small">
+                    <div class="innercontent">
+                        <p>Bharat Petroleum recognises its responsibility towards the community and has been working conscientiously for the betterment of weaker sections of society for years. We endeavour to maximise the impact of our initiatives, ensuring it benefits all the stakeholders.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="image">
+                <img src="./assets/left-arrow-wh.png" alt="" class="img1">
+                <img src="./assets/left-arrow-bl.png" alt="" class="img2">
+                <div class="animate">
+                    <a href="" title="KNOW MORE">KNOW MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="image">
+                <img src="./assets/right-arrow-wh.png" alt="" class="img1">
+                <img src="./assets/right-arrow-bl.png" alt="" class="img2">
+                <div class="animate">
+                    <a href="" title="KNOW MORE">KNOW MORE</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Journals</h3>
+                <hr>
+                <div class="small">
+                    <div class="innercontent">
+                        <p>Our In House Publications.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="image">
+                <img src="./assets/right-arrow-wh.png" alt="" class="img1">
+                <img src="./assets/right-arrow-bl.png" alt="" class="img2">
+                <div class="animate">
+                    <a href="" title="KNOW MORE">KNOW MORE</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>COVID-19 Updates</h3>
+                <hr>
+                <div class="small">
+                    <div class="innercontent">
+                        <p>Our News Releases</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section3">
+    <div class="innersection3">
+        <div class="image">
+            <img src="./assets/img-pump.jpg" alt="">
+        </div>
+        <div class="content_location">
+            <img src="./assets/icon-pump.png" alt="">
+            <h3>PUMP / FUEL STATION LOCATOR</h3>
+        </div>
+    </div>
+</div>
+
+<div class="carousels">
+    <div class="inner">
+        <h2>BHARAT PETROLEUM BLOGS</h2>
+        <p>Pioneering cutting-edge research to find sustainable and environment-friendly fuel sources</p>
+        <div class="slider">
+
+            <button
+              id="prevBtn"
+              class="slider-arrow"
+            >
+              <span class="material-symbols-outlined" > arrow_back </span>
+            </button>
+            <div class="cards">
+                <div class="card1 card">
+                <div class="image">
+                    <img src="./assets/BPCL-Octane-Card-01-787876.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>BPCL SBI Octane Card | 27 Jun 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card2 card">
+                <div class="image">
+                    <img src="./assets/BPCL-Octane-Card-01-787876.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>BPCL SBI Octane Card | 27 Jun 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card3 card">
+                <div class="image">
+                    <img src="./assets/world-Environment-Day-49b0eb.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>World Environment Day: Taking Action for a Greener Future | 13 Jun 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card4 card">
+                <div class="image">
+                    <img src="./assets/Mission-LiFE-257f8b.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>Mission LiFE: India's Global Initiative for Sustainable Living | 13 Jun 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card5 card">
+                <div class="image">
+                    <img src="./assets/Solar960x640-min-679034.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>Powering The Planet : The Advantages of Renewable Energy | 15 Feb 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card6 card">
+                <div class="image">
+                    <img src="./assets/SAT93512-1-b91162 (1).png" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>India Energy week 2023 | 08 Feb 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card7 card">
+                <div class="image">
+                    <img src="./assets/SustainableDevelopmentGoalAffordableandCleanEnergy960x640-min-ed505a.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>Sustainable Development Goal: Affordable and Clean Energy | 30 Jan 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                 </div>
+
+                <div class="card8 card">
+                <div class="image">
+                    <img src="./assets/BioFuels960x640-min-aa5931.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>What is Carbon Neutrality, and How can we Achieve it by 2040 | 30 Jan 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+
+                 <div class="card9 card">
+                <div class="image">
+                    <img src="./assets/IsYourCarDieselRunGiveItSomeExtraCare960x640-1a889b.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>Is Your Car Diesel Run? Give It Some Extra Care! | 16 Jan 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card10 card">
+                <div class="image">
+                    <img src="./assets/FacingWinterTroublesinStartingYourCarHeresWhatYouMustDo960x640-bf7406.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <p>Facing Winter Troubles in Starting Your Car? Here's What You Must Do! | 16 Jan 2023</p>
+                        <hr>
+                    </div>
+                    <div class="right">
+                        <img src="./assets/icon-arrow-right.jpg" alt="">
+                        <a href="#">Read</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button
+            id="nextBtn"
+            class="slider-arrow"
+            style="background: none; border: none"
+          >
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </button>
+    </div>
+    </div>
+</div>
+
+
+<div class="video_gallery">
+    <div class="innerGallery">
+        <h2>VIDEO GALLERY</h2>
+        <div class="image">
+            <div class="images">
+                <img src="./assets/newNormal.jpg" alt="">
+            </div>
+            <div class="images1">
+                <div class="content">
+                    <h3>Bharat Petroleum AGM2022</h3>
+                    <a href="#" class="button">Watch Video</a>
+                    <a href="#" class="link">Visit our gallery for more videos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="footer">
+    <div class="footer_min">
+        <div class="up_button">
+            <button><i class="fa-solid fa-angle-up"></i></button>
+        </div>
+        <ul>
+            <li><h3>ABOUT BPCL</h3></li>
+            <li><h3>OUR BUSINESSESS</h3></li>
+            <li><h3>BHARAT PETROLEUM FOR</h3></li>
+            <li class="big-sc"><h3>IMPORTANT LINKS</h3></li>
+            <li class="big-sc"><h3>CONNECT WITH US</h3></li>
+        </ul>
+        <h3 class="h3">Quick Links</h3>
+    </div>
+    <div class="footer_max">
+
+        <div class="down_button">
+            <button><i class="fa-solid fa-angle-down"></i></button>
+        </div>
+
+        <div class="about big-sc">
+            <ul>
+                <li class="important"><h3>ABOUT BPCL</h3></li>
+                <li><a href="#">Our Journey</a></li>
+                <li><a href="#">Board of Directors</a></li>
+                <li><a href="#">Vision & Values</a></li>
+                <li><a href="#">Awards & Accolades</a></li>
+                <li><a href="#">Our Policiesy</a></li>
+                <li><a href="#">Audit</a></li>
+                <li><a href="#">BPCL Infoline</a></li>
+            </ul>
+        </div>
+        
+        <div class="OUR_BUSINESSES big-sc">
+            <ul>
+                <li class="important"><h3>OUR BUSINESSES</h3></li>
+                <li><a href="#">Fuels & Services</a></li>
+                <li><a href="#">MAK Lubricants</a></li>
+                <li><a href="#">Aviation</a></li>
+                <li><a href="#">Refinery</a></li>
+                <li><a href="#">Gas</a></li>
+                <li><a href="#">BPRL</a></li>
+                <li><a href="#">International Trade</a></li>
+                <li><a href="#">Proficiency Testing</a></li>
+                <li><a href="#">BPCL Group</a></li>
+            </ul>
+        </div>
+
+        <div class="BHARAT_PETROLEUM_FOR big-sc">
+            <ul>
+                <li class="important"><h3>BHARAT PETROLEUM FOR</h3></li>
+                <li><a href="#">Households</a></li>
+                <li><a href="#">Aviation</a></li>
+                <li><a href="#">Investor</a></li>
+                <li><a href="#">Business & Associates</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Your Corner</a></li>
+                <li><a href="#">Startups</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="IMPORTANT_LINKS_OTHER LINKS">
+            <ul>
+                <li class="important"><h3>IMPORTANT LINKS</h3></li>
+                <li><a href="#">Website Compliance Policy</a></li>
+                <li><a href="#">Hyperlink Policy</a></li>
+                <li><a href="#">Non PDS (White) SKO</a></li>
+                <li><a href="#">Appointment of I&C Reseller-General Process</a></li>
+                <li><a href="#">RTI</a></li>
+                <li><a href="#">Integrity Pact</a></li>
+                <li><a href="#">M. B. LAL Recommendations</a></li>
+                <li><a href="#">Urja Sangam</a></li>
+                <li><a href="#">Empanelment of LNG supplier</a></li>
+                <li><a href="#">Public Notice Bharat Gas</a></li>
+                <li><a href="#">State Wise GST Registration Numbers</a></li>
+                <li><a href="#">Payment Gateway for direct remittances to BPCL</a></li>
+                <li><a href="#">Citizen Charter for Marketing Products</a></li>
+                <li><a href="#">Six Monthly Reports</a></li>
+                <li><a href="#">Complain/Feedback</a></li>
+                <li><a href="#">Customer Care</a></li>
+                
+            </ul>
+            <ul>
+                <li class="important"><h3>OTHER LINKS</h3></li>
+                <li><a href="#">Tenders</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Investor</a></li>
+                <li><a href="#">Sustainability</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="icons_links">
+            <ul>
+                <li><h3>CONNECT WITH US</h3></li>
+                <li><a href="#"><img src="./assets/icon_smartline.png" alt="">&nbsp; SmartLine</a></li>
+                <li><a href="#"><img src="./assets/icon_feedback.png" alt=""> &nbsp;Feedback </a></li>
+                <li><a href="#"><img src="./assets/icon_locate.png" alt=""> &nbsp;Locate Us</a></li>
+                
+            </ul>
+
+            <ul>
+                <li><h3>IMPORTANT DOCUMENTS</h3></li>
+                <li><a href="#">Committee for Suo Motu Disclosure</a></li>
+                <li><a href="#">Details of Training on RTI</a></li>
+            </ul>
+
+            <ul>
+                <li><h3>APPS</h3></li>
+                <li><a href="#"><img src="./assets/smartdrive_icon.png" alt=""> &nbsp;BPCL SmartDrive</a></li>
+                <li><a href="#"><img src="./assets/ft-android-icon.png" alt=""> &nbsp;Google Play</a></li>
+                <li><a href="#"><img src="./assets/ft-Apple-icon.png" alt=""> &nbsp;Apple App Store</a></li>
+                <li><a href="#"><img src="./assets/icon_mlpgone.png" alt=""> &nbsp;Bharatgas</a></li>
+                <li><a href="#"><img src="./assets/icon_smartline (1).png" alt=""> &nbsp;SmartFleet</a></li>
+            </ul>
+
+            <ul>
+                <li class="icons"><h3>FOLLOW US</h3>
+                    <ul>
+                        <li title="FACEBOOK"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li title="LINKEDIN"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li title="YOUTUBE"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li title="TWITTER"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li title="INSTAGRAM"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </li>   
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer_end">
+    <div class="footer_1">
+        <p>2023 © Bharat Petroleum Corporation Limited All Rights Reserved. &nbsp; &nbsp; &nbsp; &nbsp; <strong>Updated on Dec 1 2023 10:52AM</strong></p>
+    <ul>
+        <li><a href="#">Complaint / Feedback</a></li>
+        <li><a href="#">Disclaimer</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">FAQs</a></li>
+    </ul>
+    </div>
+    <div class="footer_2">
+        <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+    </div>
+</div>
+
+
+<div class="footer_end_sc">
+    
+        <p>2023 © Bharat Petroleum Corporation Limited All Rights Reserved. &nbsp; &nbsp; &nbsp; &nbsp; <strong>Updated on Dec 1 2023 10:52AM</strong></p>
+
+        <div class="footer_2">
+            <p>
+                <a href="#">Terms of Use</a> 
+                | 
+                <a href="#">Privacy Policy</a>
+            </p>
+        </div>
+    <ul>
+        <li><a href="#">Complaint / Feedback</a></li>
+        <li><a href="#">Disclaimer</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">FAQs</a></li>
+    </ul>
+    
+</div>
+
+
+<div class="last_image">
+    <img src="./assets/fixed.png" alt="">
+</div>
+<script src="./script.js"></script>
 </body>
 </html>
