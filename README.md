@@ -3,7 +3,7 @@
 ### Welcome to the Bharat Petroleum Website Clone! This project is a replica of the Bharat Petroleum website, developed using HTML, CSS, and JavaScript. In this README, you'll find all the information about this project.
 ---
 
-## Hosted Link: [Click Here](https://jaitensahu.github.io/Project-Dr.PathLab/Patients)
+## Hosted Link: [Click Here](https://ayushagrawal2806.github.io/Bharat-Petroleum/)
 ---
 
 ## Table of Contents:-
@@ -26,13 +26,14 @@ The Bharat Petroleum Website Clone is a web application that mimics the function
 
 ## Project:
 - This project was assigned by [Geekster](https://www.geekster.in/) as a **Major Project** for a team of 8 members:
-  - Jaiten Sahu (TEAM LEADER)
-  - Sakshi Thakare
-  - Lokesh Kataria
-  - Virendra Kumar Yadav
-  - Abhishek Sharma 
-  - Abhay Chauhan 
-  - Shweta Sharma 
+  - Ayush Agrawal (TEAM LEADER)
+  - Dhruv Sharma
+  - Preethi Baskaran
+  - Prasad Sunil Mahajan
+  - Samadhan Sudhakar Gaikwad
+  - Ashwin Gwali 
+  - Adarsh Dutta
+  - Aditya Shendkar
 
 - It was an exciting opportunity for us to apply our skills and collaborate with fellow learners to create a functional and polished clone of the Bharat Petroleum website.
 ---
@@ -132,13 +133,13 @@ Throughout the development of our Bharat Petroleum Clone Website Project, our te
 
 ![Screenshot 2023-12-06 182823](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/149095832/ca77cb53-9440-4e00-8e5d-fab07b277d64)
 
-***UI Description: The "Patients" section is designed with a patient-centric approach. The UI focuses on user-friendly navigation, allowing patients to easily access services such as booking tests, locating nearby centers, downloading reports, and exploring special programs and promotions.***
+***UI Description: The Bharat Petroleum Website Clone is a web application that mimics the functionality and design of the original Bharat Petroleum website.Bharat Petroleum Corporation Limited (BPCL) is a prominent Indian state-controlled oil and gas company headquartered in Mumbai, Maharashtra. It is one of the largest and leading players in the oil and gas industry in India. BPCL operates throughout the entire hydrocarbon value chain, including refining, marketing, distribution, and exploration of oil and gas.***
 
 
 ## **CONCLUSION**
 
 ***In the process of recreating the user interface (UI) of the Bharat Petroleum website, we've aimed to capture the essence of a leading Fuel service provider.
-Our project encompasses various sections, including Patients, Doctors, Business Partnership, About Us, Investors, Contact Us, Blogs, FAQs, and more.***
+Our project encompasses various sections, including About BPCL, Bharat Petroleum for, Tenders, Careers, CSR, R&D Center, Sustainability, Vigilance, and more.***
 
 **Achievements**
 - Faithful Representation: We have strived to provide a faithful representation of the Bharat Petroleum website, mirroring its visual aesthetics, layout, and key functionalities.
