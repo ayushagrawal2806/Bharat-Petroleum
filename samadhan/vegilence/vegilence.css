@@ -7,7 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     font-family: 'Figtree', sans-serif;
+    ::selection{
+      color: black;
+      background-color: #f4db35;
+    }
 }
 .photo{
     width: 100%;

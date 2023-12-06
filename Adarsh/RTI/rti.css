@@ -5,13 +5,18 @@ body {
     font-family: 'Figtree', sans-serif;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    ::selection{
+      color: black;
+      background-color: #f4db35;
+    }
 }
 
 
@@ -1223,17 +1228,20 @@ header .sc_header{
     .footer_end_sc{
       display: inline-block;
     }
-    .last_image{
-      width: 10rem;
-      position: fixed;
-      bottom: 1.2rem;
-      right: 2.5rem;
-      z-index: 99999999999;
-    }
-    
-    .last_image img{
-      width: 11.2rem;
-      height: 11.2rem;
-    
-    }
+
+  }
+
+
+  .last_image{
+    width: 10rem;
+    position: fixed;
+    bottom: 1.2rem;
+    right: 2.5rem;
+    z-index: 99999999999;
+  }
+  
+  .last_image img{
+    width: 11.2rem;
+    height: 11.2rem;
+  
   }
