@@ -1290,3 +1290,14 @@ header .sc_header{
   height: 11.2rem;
 
 }
+
+@media screen and (min-width:320px) and (max-width:600px) {
+  .crousal {
+    margin-top: 100px;
+  }
+
+  .img-txt {
+    padding: 3px;
+  }
+
+}
