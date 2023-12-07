@@ -17,7 +17,7 @@
 
 - Bharat Petroleum Corporation Limited (BPCL) is a prominent Indian oil and gas company involved in the entire spectrum of the energy sector. Its operations encompass the exploration, production, refining, and marketing of petroleum and petrochemical products. With an extensive retail network, BPCL serves a broad customer base across India, providing a diverse range of products such as gasoline, diesel, LPG, aviation fuel, and lubricants.
 
--The page Bharat Petroleum For is a very useful page in which the user can experience different products and services of Bharat Petroleum which further leads to guidance with the help of videos and also locating the nearest BPCl service near you.
+- The page Bharat Petroleum For is a very useful page in which the user can experience different products and services of Bharat Petroleum which further leads to guidance with the help of videos and also locating the nearest BPCl service near you.
 
 
 ## Features
