@@ -17,7 +17,7 @@
 
 . Bharat Petroleum Corporation Limited (BPCL) is a prominent Indian oil and gas company involved in the entire spectrum of the energy sector. Its operations encompass the exploration, production, refining, and marketing of petroleum and petrochemical products. With an extensive retail network, BPCL serves a broad customer base across India, providing a diverse range of products such as gasoline, diesel, LPG, aviation fuel, and lubricants.
 
-. The company is likely to have initiatives focused on sustainability, environmental responsibility, and corporate social responsibility. BPCL's commitment to investor relations, human resources, and delivering quality energy solutions further establishes its significance in the industry. For the latest and most accurate information, it is recommended to visit the official Bharat Petroleum website.
+.The page Bharat Petroleum For is a very useful page in which the user can experience different products and services of Bharat Petroleum which further leads to guidance with the help of videos and also locating the nearest BPCl service near you.
 
 
 ## Features
@@ -27,12 +27,6 @@ Bharat Petroleum For-
 - **Video Gallery:** Customers can learn and grasp the information related to Bharat Petroleum.
 - **Map** Customer or User can use the map to find the nearest Bharat Petroleum Service Center.
 
-## Installation
-
-1. Clone the repository or download the ZIP file.
-2. Open Google Chrome and navigate to `chrome://extensions/`.
-3. Enable "Developer mode" in the top right corner.
-4. Click on "Load unpacked" and select the folder containing the extension files.
 
 
 ## Technologies Used
@@ -105,13 +99,6 @@ I would like to acknowledge the following resources that were instrumental in th
 
 - [Youtube](https://www.youtube.com/) - For a few Javascript functions in the header and footer I have used YouTube as a reference to do it.
 
-- [Font Awesome](https://fontawesome.com/): I have used a few icons from this website.
-
-- [Google Fonts](https://fonts.google.com/): I have used [figtree](https://fonts.google.com/specimen/Figtree?query=figtree) font from this website.
-
-- [jsdelivr](https://www.jsdelivr.com/): I have used swiper from this for my carousal on my page.
-
-Feel free to explore these resources for more in-depth understanding or clarification on specific topics.
 
 
 ## **CONCLUSION**
