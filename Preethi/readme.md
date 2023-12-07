@@ -5,7 +5,6 @@
 # Table of Contents
   - [Overview](#overview)
   - [Features](#features)
-  - [Installation](#installation)
   - [Technologies Used](#technologies-used)
   - [Challenges Faced](#challenges-faced)
   - [Screenshots](#screenshots)
@@ -21,22 +20,23 @@
 
 
 ## Features
+## R&D Center:
+**You will get to know about:**
+- the BPCL Corporate Research & Development Centre (CRDC),their vision and their policy.
+- their research and their strategy, facilities they have and state-of-the-art research laboratories at CRDC.
+- the patents they have filed. A patent is a legal document granted by a government that gives the inventor exclusive rights to make, use, and sell an invention for a specified number of years.
+- Awards and accolades they have recieved for their work.
+- few information about their products.
 
-- **Home Page:** The homepage likely provides a brief overview of the company, possibly featuring current news, announcements, or promotions.
-- **About Us:** A section dedicated to providing detailed information about the company, its history, mission, vision, and values.
-- **Products and Services:** Information about the range of products and services offered by Bharat Petroleum, including details about different types of fuels, lubricants, and other offerings.
-- **Sustainability:** Information about the company's commitment to sustainability, environmental initiatives, and corporate social responsibility.
-- **Careers:** Information about job opportunities, recruitment processes, and details about working at Bharat Petroleum.
-- **Contact Us:** Contact details for various departments or locations, along with a customer support section.
-- **Online Services:** If available, features such as online bill payment, product booking, or customer account management.
-
-
-## Installation
-
-1. Clone the repository or download the ZIP file.
-2. Open Google Chrome and navigate to `chrome://extensions/`.
-3. Enable "Developer mode" in the top right corner.
-4. Click on "Load unpacked" and select the folder containing the extension files.
+  ## Sustainability
+  **Sustainability is a concept that refers to the ability to meet the needs of the present without compromising the ability of future generations to meet their own needs. It involves a balanced and responsible approach to economic, social, and environmental considerations to ensure long-term well-being for both current and future generations.**
+  **You will get to know about:**
+  - the global goals for **sustainable** development.
+  -  sustainable business practices and efforts towards creating a sustainable future.
+  -  highest levels of sustainable management in health, safety, environment and security performances by implemented a Health, Safety, Security & Environment system in 2007 and different policies and life saving rules.
+  -  their **green** refineries.
+  -  Reports on environmental clearence.
+  -  Awards and recognitions.
 
 
 ## Technologies Used
