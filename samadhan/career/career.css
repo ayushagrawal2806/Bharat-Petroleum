@@ -91,10 +91,6 @@ select{
     background-color: #6e6a6a;
     opacity: 0.7;
 }
-@media screen and (max-width){
-    
-}
-
 .video_section{
     background: url(../backgroundImage.jpeg);
     background-position: center;
@@ -113,9 +109,67 @@ select{
    justify-content: center;
    margin-right: 10px;
 }
+@media screen and (max-width: 896px) {
+  .text_row{
+      margin-top: 20px;
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-around; */
+  }
+  .button_text {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .text_paragraph{
+      text-align: center;
+      font-size: 13px;
+      margin: 10px;
+  }
+  .main_video iframe{
+      width: 300px;
+      height: 300px;
+      margin-left: 10px;
+  }
+}
 @media screen and (max-width: 800px) {
-  .video_youtube{
-    display: inline-block;
+  .pho img{
+    width: 80%;
+  }
+  .image_text{
+   width: 80%;
+  }
+.text_row_left{
+ margin-right: 90px;
+}
+.text_row_right{
+  margin-left: 40px;
+}
+.video_youtube{
+  padding-left: 20px;
+  padding: 10px;
+}
+.main_video{
+height: 300px;
+width: 200px;
+}
+.main_video iframe{
+height: 50%;
+width: 50%;
+margin-left: 20px;
+}
+
+
+.text_row_right{
+text-align: center;
+margin-top: 10px;
+}
+}
+@media screen and (max-width: 1100px) {
+.main_video iframe{
+  height: 400px;
+  width: 400px;
+  margin-left: 20px;
  }
 }
 .video_images{
