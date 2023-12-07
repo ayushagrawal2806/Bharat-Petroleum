@@ -14,10 +14,7 @@
 
 ## Overview
 
-. Bharat Petroleum Corporation Limited (BPCL) is a prominent Indian oil and gas company involved in the entire spectrum of the energy sector. Its operations encompass exploration, production, refining, and marketing of petroleum and petrochemical products. With an extensive retail network, BPCL serves a broad customer base across India, providing a diverse range of products such as gasoline, diesel, LPG, aviation fuel, and lubricants.
-
-. The company is likely to have initiatives focused on sustainability, environmental responsibility, and corporate social responsibility. BPCL's commitment to investor relations, human resources, and delivering quality energy solutions further establishes its significance in the industry. For the latest and most accurate information, it is recommended to visit the official Bharat Petroleum website.
-
+. Using HTML, CSS and basic Javascript i have created 2 webpages- R&D Center and Sustainability. Below is the basic overview of the Features, Technologies used, Challenges Faced, Screenshots, References and contact email id if you have any queries or suggestions.
 
 ## Features
 ## R&D Center:
@@ -58,6 +55,8 @@ Used for structuring the web pagesincluding headers, navigation bars, content se
    - Explore Icons: Visit the Font Awesome website or documentation to find the icons that suit your project's needs.
  - Documentation: [Official documentation for further details.](https://fontawesome.com/)
 
+   5. **[jsdelivr](https://www.jsdelivr.com/)**
+      -jsDelivr is a free, open-source content delivery network (CDN) that primarily focuses on delivering JavaScript libraries, jQuery plugins, fonts, CSS frameworks, and other web-related assets. It serves as a reliable and high-performance platform for developers to distribute and host their projects, ensuring fast and efficient delivery of resources to users around the world.
 
 ## Challenges Faced
 
@@ -81,7 +80,7 @@ By documenting these challenges and solutions, I hope to provide insights for ot
 
 
 ## Screenshots
-
+## R&D Center
 **Header, Navbar and Carousal**
 ![Screenshot (120)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/c9669ac1-5f09-4a8d-b16d-c046f25e7193)
 
@@ -100,6 +99,18 @@ By documenting these challenges and solutions, I hope to provide insights for ot
 **Footer**
 ![Screenshot (125)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/a8f0308e-9036-4098-a6c2-e58ea076a52c)
 
+## Sustainability
+**Header, Navbar and Carousal**
+![Screenshot (127)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/05e5c0d8-2f66-4402-9b2c-55aaa7d4427d)
+
+**A Cause for Sustainability**
+![Screenshot (128)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/4b8c0eab-c18e-4a32-83b2-0512cd6fc0f1)
+
+**Global goals, Sustainability Reports, Health, Safety, Security and Environment, Green Refineries, Environmental Clearence, Awards and Recognitions**
+![Screenshot (129)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/8b9bf3b0-7d7f-4db7-b735-614beff0476e)
+
+**Footer**
+![Screenshot (130)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/ceb44490-eef4-4f75-89bb-be1c9a00e126)
 
 ## References
 
@@ -109,25 +120,18 @@ I would like to acknowledge the following resources that were instrumental in th
 
 - [Youtube](https://www.youtube.com/) - For a few Javascript functions in the header and footer i have used youtube as a reference to do it.
 
-- [Font Awesome](https://fontawesome.com/): I have used a few icons from this website.
-
-- [Google Fonts](https://fonts.google.com/): I have used [figtree](https://fonts.google.com/specimen/Figtree?query=figtree) font from this website.
-
-- [jsdelivr](https://www.jsdelivr.com/) : I have used used swiper from this for my carousal in my page.
-
 Feel free to explore these resources for more in-depth understanding or clarification on specific topics.
 
 
 ## **CONCLUSION**
 
-***In the process of recreating the user interface (UI) of the Bharat Petroleum website, we've aimed to capture the essence of a leading Fuel service provider.
-Our project encompasses various sections, including About BPCL, Bharat Petroleum for, Tenders, Careers, CSR, R&D Center, Sustainability, Vigilance, and more.***
+- In creating webpages using HTML and CSS, I embarked on a valuable learning journey that significantly enhanced my web development skills. Overcoming challenges such as debugging code issues and making design decisions has contributed to my overall growth.
 
-**Achievements**
-- Faithful Representation: We have strived to provide a faithful representation of the Bharat Petroleum website, mirroring its visual aesthetics, layout, and key functionalities.
-- Learning and Skill Development: This project has been a valuable learning experience in web development.
-- We've honed our skills in HTML, CSS, allowing us to create responsive and visually appealing web pages.
-- Portfolio Enhancement: The Bharat Petroleum project serves as a testament to our web development abilities, providing a meaningful addition to our portfolios.
+- I carefully considered design elements, including color schemes, layouts, and typography, with a focus on creating an aesthetically pleasing and user-friendly experience. The incorporation of responsive design principles ensured seamless adaptability to various screen sizes, enhancing accessibility.
+
+- My proficiency in HTML and CSS has grown, and I now feel more comfortable organizing code and utilizing features like Flexbox and Grid layout for improved styling and responsiveness.
+
+- While proud of my achievements, I recognize areas for improvement. Exploring advanced CSS animations and delving into JavaScript for interactive elements are on my radar for future development projects. I am enthusiastic about continuous learning, setting my sights on expanding my skill set and participating in coding communities to connect with fellow developers.
 
 
 ## Contact
