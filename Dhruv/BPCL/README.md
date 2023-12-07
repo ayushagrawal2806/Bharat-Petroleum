@@ -1,4 +1,4 @@
-# Bharat Petroleum Website Clone By *The Tech Troupe of 8*
+ b# Bharat Petroleum Website Clone By *The Tech Troupe of 8*
 
 ## Hosted Link: [Click Here](https://ayushagrawal2806.github.io/Bharat-Petroleum/)
 
@@ -22,14 +22,10 @@
 
 ## Features
 
-- **Home Page:** The homepage likely provides a brief overview of the company, possibly featuring current news, announcements, or promotions.
-- **About Us:** A section dedicated to providing detailed information about the company, its history, mission, vision, and values.
-- **Products and Services:** Information about the range of products and services offered by Bharat Petroleum, including details about different types of fuels, lubricants, and other offerings.
-- **Sustainability:** Information about the company's commitment to sustainability, environmental initiatives, and corporate social responsibility.
-- **Careers:** Information about job opportunities, recruitment processes, and details about working at Bharat Petroleum.
-- **Contact Us:** Contact details for various departments or locations, along with a customer support section.
-- **Online Services:** If available, features such as online bill payment, product booking, or customer account management.
-
+Bharat Petroleum For-
+- **Fuels and services:** This section provides information about the various services of Bharat Petroleum from a vast diversified area.
+- **Video Gallery:** Customers can learn and grasp the information related to Bharat Petroleum.
+- **Map** Customer or User can use the map to find the nearest Bharat Petroleum Service Center.
 
 ## Installation
 
