@@ -15,7 +15,7 @@
 
 ## Overview
 
-. Bharat Petroleum Corporation Limited (BPCL) is a prominent Indian oil and gas company involved in the entire spectrum of the energy sector. Its operations encompass exploration, production, refining, and marketing of petroleum and petrochemical products. With an extensive retail network, BPCL serves a broad customer base across India, providing a diverse range of products such as gasoline, diesel, LPG, aviation fuel, and lubricants.
+. Bharat Petroleum Corporation Limited (BPCL) is a prominent Indian oil and gas company involved in the entire spectrum of the energy sector. Its operations encompass the exploration, production, refining, and marketing of petroleum and petrochemical products. With an extensive retail network, BPCL serves a broad customer base across India, providing a diverse range of products such as gasoline, diesel, LPG, aviation fuel, and lubricants.
 
 . The company is likely to have initiatives focused on sustainability, environmental responsibility, and corporate social responsibility. BPCL's commitment to investor relations, human resources, and delivering quality energy solutions further establishes its significance in the industry. For the latest and most accurate information, it is recommended to visit the official Bharat Petroleum website.
 
@@ -40,17 +40,17 @@
 
 
 ## Technologies Used
-<img src=""C:\Users\LENOVO\OneDrive\Documents\Zoom\Geekathon project\t_500x300.jpeg""/>          <img src="https://s.yimg.com/fz/api/res/1.2/dh5jeZuroSBn1pooXWY1nA--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/e0983ef9-d1f0-36ff-bcd1-3ab7d1a5d3b1/t_500x300"/>          <img src="https://img.icons8.com/color/48/000000/javascript.png"/>      
+<img src="https://img.icons8.com/color/48/000000/html-5.png"/>          <img src="https://img.icons8.com/color/48/000000/css3.png"/>          <img src="https://img.icons8.com/color/48/000000/javascript.png"/>    
 
 1.  **HTML:**  
-Used for structuring the web pagesincluding headers, navigation bars, content sections, and footers.
+Used for structuring the web pages including headers, navigation bars, content sections, and footers.
 2.  **CSS:** 
  - Applied for styling and layout.
 3.  **JavaScript:**
- - JavaScript Libraries Used : Our Bharat Petroleum Clone Website Project relies on several external libraries and dependencies to enhance its functionality and features. Below is a list of these libraries along with their purposes:
+ - JavaScript Libraries Used: Our Bharat Petroleum Clone Website Project relies on several external libraries and dependencies to enhance its functionality and features. Below is a list of these libraries along with their purposes:
 
 4.  **Font Awesome (for icons)**
- - Description: Font Awesome is a comprehensive icon library that offers a vast selection of icons for various purposes, such as user interface design, web development and graphic design.
+ - Description: Font Awesome is a comprehensive icon library that offers a vast selection of icons for various purposes, such as user interface design, web development, and graphic design.
  - Usage:
    - Include the CSS: Add the Font Awesome CSS stylesheet to your HTML document by including a link in the <head> section.
    - Add Icons: Insert icons into your HTML using the element with the appropriate class. Customize their appearance using CSS.
@@ -75,27 +75,27 @@ This was also a major challenge, as this is the first time doing a whole website
 4. **Limited Animation and Transition Effects:** While CSS does offer some animation and transition capabilities, creating complex animations may require JavaScript or other technologies. This limitation can affect the overall user experience on more dynamic websites.
 
 5. **Longer Page Load Times:**
- For larger websites or those with a significant amount of content, relying solely on static HTML files might result in longer page load times, especially if content is not optimized or cached effectively.
+ For larger websites or those with a significant amount of content, relying solely on static HTML files might result in longer page load times, especially if the content is not optimized or cached effectively.
 
 By documenting these challenges and solutions, I hope to provide insights for others who may be embarking on a similar learning journey. Feel free to reach out if you have questions or need further clarification on any aspect of the extension.
 
 
 ## Screenshots
 
-**Header, Navbar and Carousal**
-![Screenshot (120)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/c9669ac1-5f09-4a8d-b16d-c046f25e7193)
+**Header, Navbar, and Carousal**
 
-**Tranforming Ideas into Innovation**
-![Screenshot (121)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/909880cc-0f3f-44b3-b7e8-db77307e8698)
+![Screenshot (12)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/70975389/7031057e-6291-4274-8efd-9a72ed393905)
 
-**About Us, Our Capabilities, Patents and Awards and accolades**
-![Screenshot (122)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/28fe6f2a-8282-42a7-9083-eb575d542394)
 
-**Different Products**
-![Screenshot (123)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/69a87a6b-73e9-4234-9b58-468557819848)
+**Image and Video Gallery**
 
-**Queries form**
-![Screenshot (124)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/509fb8f0-b6b9-4207-b6ee-10f09069b2eb)
+![Screenshot (13)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/70975389/a3409a16-3964-48dc-a4fc-47a35f3e0326)
+
+
+**Map and other page**
+
+![Screenshot (14)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/70975389/edaa86c2-4edb-400e-a5b5-22310897be1e)
+
 
 **Footer**
 ![Screenshot (125)](https://github.com/ayushagrawal2806/Bharat-Petroleum/assets/72606635/a8f0308e-9036-4098-a6c2-e58ea076a52c)
@@ -107,13 +107,13 @@ I would like to acknowledge the following resources that were instrumental in th
 
 - [W3Schools](https://www.w3schools.com/): W3Schools' tutorials and examples were valuable for quick references and clarifications on HTML, CSS, and JavaScript concepts.
 
-- [Youtube](https://www.youtube.com/) - For a few Javascript functions in the header and footer i have used youtube as a reference to do it.
+- [Youtube](https://www.youtube.com/) - For a few Javascript functions in the header and footer I have used YouTube as a reference to do it.
 
 - [Font Awesome](https://fontawesome.com/): I have used a few icons from this website.
 
 - [Google Fonts](https://fonts.google.com/): I have used [figtree](https://fonts.google.com/specimen/Figtree?query=figtree) font from this website.
 
-- [jsdelivr](https://www.jsdelivr.com/) : I have used used swiper from this for my carousal in my page.
+- [jsdelivr](https://www.jsdelivr.com/): I have used swiper from this for my carousal on my page.
 
 Feel free to explore these resources for more in-depth understanding or clarification on specific topics.
 
@@ -126,10 +126,10 @@ Our project encompasses various sections, including About BPCL, Bharat Petroleum
 **Achievements**
 - Faithful Representation: We have strived to provide a faithful representation of the Bharat Petroleum website, mirroring its visual aesthetics, layout, and key functionalities.
 - Learning and Skill Development: This project has been a valuable learning experience in web development.
-- We've honed our skills in HTML, CSS, allowing us to create responsive and visually appealing web pages.
+- We've honed our skills in HTML and CSS, allowing us to create responsive and visually appealing web pages.
 - Portfolio Enhancement: The Bharat Petroleum project serves as a testament to our web development abilities, providing a meaningful addition to our portfolios.
 
 
 ## Contact
 
-For any questions or suggestions, you can contact preethibaskaran2001@gmail.com .
+For any questions or suggestions, you can contact dkt9839@gmail.com
